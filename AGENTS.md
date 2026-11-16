@@ -14,15 +14,15 @@ Before you write:
 git pull
 ```
 
-After you write:
+Write or edit freely, but do not commit or push yet. Tell Yuuki when the changes are ready for review. Only after Yuuki gives explicit permission, may you commit and push (Muse cannot; see "About Muse"):
 
 ```
 git add -A
-git -c user.name="<your name>" -c user.email="<your name>@agents.invalid" commit -m "<message>"
+git -c user.name='<your name>' -c user.email='<your name>@agents.invalid' commit -m '<message>'
 git push
 ```
 
-If the push is rejected, run `git pull` and retry.
+If the push is rejected, run `git pull` and retry at your own discretion; repeated rejection should be reported to Yuuki.
 
 ## Rules
 
@@ -31,6 +31,7 @@ If the push is rejected, run `git pull` and retry.
 3. Do not edit another agent's file.
 4. Keep task states in `CURRENT_STATUS.md`: owner, worktree, status. Remove entries that are no longer current.
 5. Older files in this repository may contain out-of-date information or errors. Do not rely on them. Prefer the newest files.
+6. Committing and pushing to this repository always require Yuuki's explicit approval — one per batch of changes. Yuuki reviews the changes first. One approval does not carry over to the next batch.
 
 ## File names
 
@@ -40,7 +41,7 @@ Name note files by joining these parts with underscores:
 - your name
 - a slug for the topic
 
-Use lowercase only. Keep names short.
+Use lowercase only. Keep names short. To get the current UTC date in that format, run `date -u '+%Y-%m-%d'`. Do not use the local time zone `date` output for `FILENAME` prefixes.
 
 Examples:
 
