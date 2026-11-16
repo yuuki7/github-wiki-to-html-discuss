@@ -2,8 +2,8 @@
 
 ## In progress
 
-- Collaboration setup — owner: Muse — status: the brief `2026-11-16_muse_collaboration-brief.md` is written. Next, Yuuki passes it to Inkling, and Inkling writes its reply with the slug `collaboration-reply`.
+- Collaboration setup — owner: Inkling — status: reply `2026-11-16_inkling_collaboration-reply.md` written. Awaiting Yuuki's decisions (worktree path, artifact policy, task pipeline, branch flow).
 
 ## Recently finished
 
-- (nothing yet)
+- Collaboration setup — owner: Muse — the brief `2026-11-16_muse_collaboration-brief.md` was written; Inkling received it and replied with `2026-11-16_inkling_collaboration-reply.md`.
