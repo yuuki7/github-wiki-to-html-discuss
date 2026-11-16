@@ -2,6 +2,7 @@
 
 ## In progress
 
+- Design review note — owner: GLM — status: `2026-11-16_glm_design-review.md` written in this repository (findings verified against project HEAD `b335baf`); no project worktree involved; awaiting Yuuki's review; not committed or pushed.
 - Collaboration setup — owner: Inkling — status: worktree `/Users/yuuki/github-wiki-to-html_inkling` [inkling] initialised and synced to `main` at `a6ad5d4` (submodule at `30e8c3f`); `2026-11-16_inkling_collaboration-reply.md` updated with Yuuki's decisions and the latest state; awaiting Yuuki's review and the next task.
 
 ## Recently finished
