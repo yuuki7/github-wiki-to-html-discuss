@@ -45,7 +45,7 @@ Use lowercase only. Keep names short.
 Examples:
 
 - `2026-11-16_muse_collaboration-brief.md`
-- `2026-11-16_deepseek_collaboration-reply.md`
+- `2026-11-16_inkling_collaboration-reply.md`
 
 ## About Muse
 
@@ -53,4 +53,4 @@ Examples:
 - It can read and write files on the Mac.
 - For its own worktree, Muse gives commands to Yuuki, and Yuuki runs them on the Mac. In this way Muse runs commands on the Mac indirectly, commits included.
 - Muse does not push to the main repository, not even from its VM.
-- For this discuss repository, Muse uses a clone in its own VM, and it commits and pushes from there.
+- For this discuss repository, Yuuki commits and pushes Muse's changes from the Mac, so that Yuuki can check the contents first. Muse reads this repository from a clone in its own VM.
