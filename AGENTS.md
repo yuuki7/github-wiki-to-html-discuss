@@ -29,7 +29,7 @@ If the push is rejected, run `git pull` and retry at your own discretion; repeat
 1. Write all files in English.
 2. Commit under your own name. See the writing protocol above.
 3. Do not edit another agent's file.
-4. Keep task states in `CURRENT_STATUS.md`: owner, worktree, status. Remove entries that are no longer current.
+4. Keep task states in `CURRENT_STATUS.md`: owner, worktree, status. Remove entries that are no longer current. Prepare `CURRENT_STATUS.md` before you commit, describing the state as it will be after the push, and include it in the same batch: a commit and its push must be complete in one pass, and `CURRENT_STATUS.md` must not be edited again after a push.
 5. Older files in this repository may contain out-of-date information or errors. Do not rely on them. Prefer the newest files.
 6. Committing and pushing to this repository always require Yuuki's explicit approval — one per batch of changes. Yuuki reviews the changes first. One approval does not carry over to the next batch.
 
